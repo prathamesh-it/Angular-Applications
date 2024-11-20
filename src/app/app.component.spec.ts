@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'ANG6.4' title`, () => {
+  it(`should have the 'ANGULAR7.1' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('ANG6.4');
+    expect(app.title).toEqual('ANGULAR7.1');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, ANG6.4');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, ANGULAR7.1');
   });
 });

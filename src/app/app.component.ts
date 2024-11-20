@@ -1,15 +1,15 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { FIRSTCOMPComponent } from './firstcomp/firstcomp.component';
-import { SECONDCOMPComponent } from './secondcomp/secondcomp.component';
+import { FirstComponent } from './first/first.component';
+import { SecondComponent } from './second/second.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,FIRSTCOMPComponent,SECONDCOMPComponent],
+  imports: [RouterOutlet,FirstComponent,SecondComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Homework1';
+  title = 'ANGULAR7.1';
 }
